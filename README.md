@@ -4,6 +4,6 @@
 <p>3 - <code>npm install</code></p>
 <p>4 - <code>npm run dev</code></p>
 
-
+<p>5 - No navegador, acesse o endereço que aparecerá em Local conforme a imagem abaixo</p>
 
 ![image](https://user-images.githubusercontent.com/69736705/207822674-caa2d007-d263-4736-88a6-30dd28e0abe9.png)
