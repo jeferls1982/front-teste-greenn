@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-center mt-3">
+    <div class="flex justify-center mt-4">
       <pagination-component v-if="pagination" :pagination="pagination"/>
     </div>
     <modal-add-disparo-vue></modal-add-disparo-vue>
@@ -45,7 +45,7 @@ export default {
   methods: {
     loadMails() {
       this.loading = true;
-      axios.get("http://127.0.0.1:8000/api/emails").then((res) => {
+      axios.get("http://127.0.0.1:9000/api/emails").then((res) => {
         console.log(res.data);
         this.pagination = res.data
         this.$store.commit("setMails", res.data.data);
@@ -65,7 +65,7 @@ export default {
   },
   mounted() {
         setInterval(() => {
-            axios.get('http://127.0.0.1:8000/api/verifica-falhas').then(()=>{
+            axios.get('http://127.0.0.1:9000/api/verifica-falhas').then(()=>{
             });
         }, 10000);
     },

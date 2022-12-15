@@ -194,7 +194,7 @@ export default {
     filter(param) {
       if (param == "Todos") {
         axios
-          .get("http://127.0.0.1:8000/api/emails")
+          .get("http://127.0.0.1:9000/api/emails")
           .then((res) => {
             this.$store.commit("setMails", res.data.data);
           })
@@ -203,7 +203,7 @@ export default {
           });
       } else {
         axios
-          .get("http://127.0.0.1:8000/api/emails?filter=" + param)
+          .get("http://127.0.0.1:9000/api/emails?filter=" + param)
           .then((res) => {
             this.$store.commit("setMails", res.data.data);
           })

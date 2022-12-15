@@ -261,7 +261,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      base_url: "http://localhost:8000/api/emails",
+      base_url: "http://localhost:9000/api/emails",
       titulo: null,
       remetente: null,
       destinatarios: null,
@@ -294,7 +294,7 @@ export default {
 
         axios.post(this.base_url, data).then((res) => {
           setTimeout(() => {
-            axios.get("http://127.0.0.1:8000/api/verifica-falhas").then(() => {
+            axios.get("http://127.0.0.1:9000/api/verifica-falhas").then(() => {
               axios.get(this.base_url).then((res) => {
                 this.$store.commit("setMails", res.data.data);
               });
