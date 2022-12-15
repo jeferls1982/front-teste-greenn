@@ -1,7 +1,9 @@
-# Frontend teste Greenn
+<h3>Instalação do sistema Frontend Teste Greenn</h3>
+<p>1 - Abra um terminal e clone o repositório <code>https://github.com/jeferls1982/front-teste-greenn</code></p>
+<p>2 - Entre na pasta do porjeto <code>cd front-teste-greenn</code></p>
+<p>3 - <code>npm install</code></p>
+<p>4 - <code>npm run dev</code></p>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<p>5 - No navegador, acesse o endereço que aparecerá em Local conforme a imagem abaixo</p>
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![image](https://user-images.githubusercontent.com/69736705/207822674-caa2d007-d263-4736-88a6-30dd28e0abe9.png)
